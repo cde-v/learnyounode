@@ -1,0 +1,1 @@
+console.log(process.argv.slice(2).map(function(x){return parseFloat(x);}).reduce(function(a,b){return a + b;}));
